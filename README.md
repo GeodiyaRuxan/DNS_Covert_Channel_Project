@@ -63,9 +63,13 @@ python3 app.py
 Open browser:
 
 http://127.0.0.1:5000
-Packet Capture Example
+
+## Packet Capture Example
+```bash
 sudo tcpdump -i ens33 port 53
-Simulation Environment
+```
+
+## Simulation Environment
 
 The project also includes an HTML-based simulation interface (simulator.html) that demonstrates the workflow of the DNS covert channel detection framework.
 
@@ -80,12 +84,22 @@ Database Access
 
 Open SQLite database:
 
+```bash
 sqlite3 soc.db
+```
 
 Example commands:
 
+```bash 
 .tables
 SELECT * FROM logs;
-Educational Purpose
+```
+
+## Educational Purpose
 
 This project was developed for academic and educational purposes as part of an undergraduate cybersecurity project.
+
+## Author
+
+Undergraduate Cybersecurity Project
+University of Plymouth
